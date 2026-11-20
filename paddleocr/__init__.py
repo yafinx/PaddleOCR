@@ -38,6 +38,7 @@ from ._pipelines import (
     PPChatOCRv4Doc,
     PPDocTranslation,
     PPStructureV3,
+    PPStructureV3TableCellFormula,
     SealRecognition,
     TableRecognitionPipelineV2,
 )
@@ -110,6 +111,7 @@ __all__ = [
     "PPChatOCRv4Doc",
     "PPDocTranslation",
     "PPStructureV3",
+    "PPStructureV3TableCellFormula",
     "SealRecognition",
     "TableRecognitionPipelineV2",
     "doc2md_convert",
